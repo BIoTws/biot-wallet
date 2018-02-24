@@ -1,0 +1,13 @@
+.navigation{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.btn{
+    text-decoration: none;
+    background-color: #128ccd;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: #ffffff;
+    margin: 0 20px;
+}

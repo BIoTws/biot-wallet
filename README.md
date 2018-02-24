@@ -1,1 +1,2 @@
-# biot-wallet
+`npm i`
+`npm start`
