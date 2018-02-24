@@ -1,0 +1,29 @@
+.Transaction{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    align-items: center;
+}
+.increase{
+    display: flex;
+    align-items: center;
+}
+.increase::before{
+    content: '+';
+    color: green;
+    margin-right: 6px;
+}
+.decrease::before{
+    content: '-';
+    color: red;
+    margin-right: 6px;
+}
+.Transaction span{
+    font-size: 14px;
+    color: #8c999e;
+    margin-left: 5px;
+}
+.Transaction .date{
+    font-size: 14px;
+    color: #8c999e;
+}
